@@ -1,0 +1,80 @@
+.home {
+    background-color: $redBg;
+    padding-top: 43px;
+}
+
+.header__text-content {
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0.08rem;
+
+        p {
+            font-size: 15px;
+            font-weight: 300;
+            margin: 0 auto;
+        }
+}
+
+.name {
+    margin: 0 auto 40px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.04rem;
+
+        span {
+            font-weight: 500;
+            color: $maroon;
+        }
+}
+
+.main_text-content {
+    font-size: 15px;
+    letter-spacing: 0.06rem;;
+    color: #FFF;
+    text-align: center;
+    max-width: 260px;
+    margin: 0 auto;
+    font-weight: 200;
+    line-height: 17px;
+
+        span {
+            font-weight: 400;
+        }
+}
+
+.nav_links-content {
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 80px 0;
+
+        a {
+            text-decoration: none;
+            color: #FFF;
+            font-size: 30px;
+            font-weight: 100;
+            letter-spacing: 0.1rem;
+            line-height: 50px;
+
+                span {
+                    font-weight: 400;
+                }
+        }
+}
+
+.contact_links_content {
+    text-align: center;
+    
+        h2 {
+            margin: -5px 0 0 0;
+            padding: 0 0;
+                a {
+                    text-decoration: none;
+                    color: #FFF;
+                    font-weight: 300;
+                    font-size: 15px;
+                    letter-spacing: 0.04rem;
+                }
+        }
+}

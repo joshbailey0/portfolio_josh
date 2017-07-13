@@ -1,2 +1,8 @@
-$redBg: #EB6564;
+@import "normalize.css";
+@import "modules/_vars";
+@import "modules/_global";
+@import "modules/_home";
+
+
+
 
