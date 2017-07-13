@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7---home" transform="translate(-173.000000, -562.000000)" fill="#FFFFFF">
+            <g id="email" transform="translate(173.000000, 562.000000)">
+                <path d="M26.3144531,0.609375 L2.92382812,0.609375 C1.31572266,0.609375 0,1.92509766 0,3.53320312 L0,21.0761719 C0,22.6842773 1.31572266,24 2.92382812,24 L26.3144531,24 C27.9225586,24 29.2382812,22.6842773 29.2382812,21.0761719 L29.2382812,3.53320312 C29.2382812,1.92509766 27.9225586,0.609375 26.3144531,0.609375 L26.3144531,0.609375 Z M26.3144531,6.45703125 L14.6191406,13.7666016 L2.92382812,6.45703125 L2.92382812,3.53320312 L14.6191406,10.8427734 L26.3144531,3.53320312 L26.3144531,6.45703125 L26.3144531,6.45703125 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
