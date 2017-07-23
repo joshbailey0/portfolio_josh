@@ -450,6 +450,11 @@ template {
   display: none;
 }
 
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: 'Helvetica Neue', sans-serif;
   background-color: #FFF;
@@ -461,22 +466,57 @@ img {
 }
 
 .home {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 135px 290px 1fr;
+    height: 667px;
+    width: 100%;
     background-color: #EB6564;
     padding-top: 43px;
 }
 
-.header__text-content {
+@media screen and (min-width:768px) {
+    .home {
+        height: 1024px;
+        padding-top: 85px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 113px 190px 479px 1fr;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .home {
+        height: 768px;
+        padding-top: 106px;
+        grid-template-rows: 135px 250px 150px 1fr;
+    }
+}
+
+.header_text-content {
+    grid-row-start: 1;
+    grid-row-end: 2;
     color: #FFF;
-    margin: 0 auto;
     text-align: center;
     letter-spacing: 0.08rem;
 }
 
-.header__text-content p {
+.header_text-content p {
             font-size: 15px;
             font-weight: 300;
-            margin: 0 auto;
+            margin: 0 0;
         }
+
+@media screen and (min-width:768px) {
+    .header_text-content p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .header_text-content p {
+        font-size: 24px;
+    }
+}
 
 .name {
     margin: 0 auto 40px 0;
@@ -491,13 +531,27 @@ img {
             color: #8F3333;
         }
 
+@media screen and (min-width:768px) {
+    .name {
+        font-size: 41px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .name {
+        font-size: 45px;
+    }
+}
+
 .main_text-content {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
     font-size: 15px;
     letter-spacing: 0.06rem;;
     color: #FFF;
     text-align: center;
     max-width: 260px;
-    margin: 0 auto;
     font-weight: 200;
     line-height: 17px;
 }
@@ -506,10 +560,26 @@ img {
             font-weight: 400;
         }
 
+@media screen and (min-width:768px) {
+    .main_text-content {
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 345px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .main_text-content {
+        font-size: 23px;
+        line-height: 24px;
+        max-width: 345px;
+    }
+}
+
 .nav_links-content {
     list-style: none;
     text-align: center;
-    padding: 20px 0 80px 0;
+    padding: 0 0;
 }
 
 .nav_links-content a {
@@ -525,22 +595,72 @@ img {
                     font-weight: 400;
                 }
 
-.contact_links_content {
+@media screen and (min-width:768px) {
+    .nav_links-content {
+        padding: 0;
+    }
+    .nav_links-content a {
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .nav_links-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 1035px;
+        margin: 0 auto;
+    }
+
+    .nav_links-content a {
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .nav_links-content li {
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+.contact_links-content {
+    grid-row-start: 4;
+    grid-row-end: 5;
     text-align: center;
 }
 
-.contact_links_content h2 {
+.contact_links-content h2 {
             margin: -5px 0 0 0;
             padding: 0 0;
         }
 
-.contact_links_content h2 a {
+.contact_links-content h2 a {
                     text-decoration: none;
                     color: #FFF;
-                    font-weight: 300;
+                    font-weight: 100;
                     font-size: 15px;
                     letter-spacing: 0.04rem;
                 }
+
+@media screen and (min-width:768px) {
+    .contact_links-content h2 {
+        padding: 10px 0;
+    }
+    .contact_links-content h2 a {
+        font-size: 20px;
+    }
+
+    .contact_links-content img {
+        width: 40px;
+        height: 32px;
+    }
+}
 
 
 
