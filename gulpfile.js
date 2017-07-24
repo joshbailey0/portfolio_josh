@@ -22,7 +22,7 @@ gulp.task('styles', function() {
 
 gulp.task('watch', function() {
 
-    watch('./docs/index.html', function() {
+    watch('./docs/**/*.html', function() {
         gulp.start('html');
     });
 

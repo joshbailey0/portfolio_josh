@@ -1,0 +1,39 @@
+.photography {
+    position: absolute;
+}
+
+.photography_images {
+    display: grid;
+    grid-template-columns: 187.5px 187.5px;
+    grid-template-rows: 221px 45px 150px 75px 176px;
+
+    .cupcake {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .spritzer {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .banana_bread {
+        grid-column: 1/2;
+        grid-row: 4/6;
+    }
+
+    .cookies {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .rocky_road {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+
+    .bahn_mi {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+}
