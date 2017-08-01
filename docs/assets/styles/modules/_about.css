@@ -1,0 +1,46 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 290px 1fr;
+    grid-template-rows: 125px 230px 1fr;
+}
+
+.about_nav {
+    grid-row: 1 / 2; 
+    grid-column: 2 / 3;
+    margin: 27px auto 0 auto;
+    text-align: center;
+}
+
+.about_nav h1 {
+    font-size: 30px;
+    font-weight: 100;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+
+        span {
+            font-weight: 500;
+        }
+}
+
+.about_text-content {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    font-size: 19px;
+    line-height: 26px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+}
+
+.about_images {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.about_images img {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 215px;
+    height: 215px;
+}
