@@ -39,8 +39,8 @@
 }
 
 .about_images img {
-    border-radius: 100%;
+    /* border-radius: 100%;
     object-fit: cover;
     width: 215px;
-    height: 215px;
+    height: 215px; */
 }
