@@ -9,6 +9,15 @@ figure {
     margin: 0 auto;
 }
 
+@media screen and (min-width:768px) {
+        
+    }
+
+
+@media screen and (min-width:1366px) {
+
+}
+
 .photography_nav {
     position: absolute;
     left: 50%;
@@ -22,20 +31,20 @@ figure {
     opacity: .92;
     padding: 5px 15px;
     color: #333;
-        h1 {
-            margin: 0;
-            padding: 0;
-            font-size: 30px;
-            font-weight: 100;
-                span {
-                    font-weight: 400;
-                }
-        }
-        p {
-            margin: 0;
-            padding: 0;
-            font-size: 20px;
-        }
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        font-weight: 100;
+            span {
+                font-weight: 400;
+            }
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
 }
 
 .photography_text-content {
@@ -59,8 +68,15 @@ figure {
 }
 
 .photography_images {
-    display: grid;
-    height: 375px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* justify-content: space-between; */
+
+    img {
+        flex-basis: 50%;
+        object-fit: cover;
+    }
+
 }
+
